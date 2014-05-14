@@ -91,7 +91,7 @@ S.use('gallery/mobile-tab/1.0/index', function (S, MobileTab) {
 直接跳到第 index 个 tab, 序列从0开始
 
 ```` javascript
-	tab.next( 1 )//跳到第2个tab
+	tab.go( 1 )//跳到第2个tab
 ````
 
 * `tab.next()`
