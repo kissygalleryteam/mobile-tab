@@ -1,0 +1,17 @@
+{
+    "name": "mobile-tab",
+    "comName":"MobileTab",
+    "version": "1.0",
+    "desc": "",
+    "tag":"mobile tab, multi tab, tab,kissy-mini",
+    "githubName":"idche@qq.com",
+    "author": {
+        "name": "代军",
+        "email": "lujun.lj@alibaba-inc.com",
+        "page": ""
+    },
+	"flexComboPort":"8081",
+	"reserveServerPort":"8080",
+    "type": "kissy-gallery",
+    "type-url": "http://gallery.kissyui.com/guide"
+}
