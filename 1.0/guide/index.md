@@ -13,6 +13,7 @@ MobileTab
 S.use('gallery/mobile-tab/1.0/index', function (S, MobileTab) {
 		
    var mobileTab = new MobileTab( S.one("#xxx"), {gap:20});
+   mobileTab.go(0);
 })
 
 ````	
