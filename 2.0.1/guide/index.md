@@ -2,15 +2,15 @@
 
 MobileTab
 
-* 版本：2.0.0
+* 版本：2.0.1
 * 作者：代军
-* demo：[http://kg.kissyui.com/mobile-tab/2.0.0/demo/index.html](http://kg.kissyui.com/mobile-tab/2.0.0/demo/index.html)
+* demo：<http://kg.kissyui.com/mobile-tab/2.0.1/demo/index.html>
 * 扫码查看 ![扫码查看](http://gtms01.alicdn.com/tps/i1/T1Q3Y3FJxbXXb5z8rZ-588-584.jpg_240x240Q90.jpg)
 
 ## 初始化组件
 
 ```` javascript
-S.use('kg/mobile-tab/2.0.0/index', function (S, MobileTab) {
+S.use('kg/mobile-tab/2.0.1/index', function (S, MobileTab) {
 		
    var mobileTab = new MobileTab( S.one("#xxx"), {gap:20});
    mobileTab.go(0);

@@ -35,7 +35,7 @@ KISSY.add(function (S, Node,Base) {
 		this.currentIndex = 0;
 		this.maxMarginLeft = 0;
 
-		//支持的事列表件lie'b
+		//支持的事列表件列表
 		this.eventName = ["onChange"];
 		this.eventHandle = {};
 		this.options = {
@@ -316,7 +316,7 @@ KISSY.add(function (S, Node,Base) {
 	//alert(navigator.userAgent)
 	//alert(navigator.userAgent.indexOf("Android 2."))
 	if(navigator.userAgent.indexOf("Android 2.") != -1){
-		MulitpeTab.prototype.touchScroll = function( elem ){
+		MobileTab.prototype.touchScroll = function( elem ){
 
 		    var el=elem[0]
 		    var scrollStartPos=0;

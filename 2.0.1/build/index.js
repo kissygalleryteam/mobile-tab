@@ -1,7 +1,7 @@
 /*
 combined files : 
 
-kg/mobile-tab/2.0.0/index
+kg/mobile-tab/2.0.1/index
 
 */
 /**
@@ -9,7 +9,7 @@ kg/mobile-tab/2.0.0/index
  * @author 代军<lujun.lj@alibaba-inc.com>
  * @module mobile-tab
  **/
-KISSY.add('kg/mobile-tab/2.0.0/index',function (S, Node,Base) {
+KISSY.add('kg/mobile-tab/2.0.1/index',function (S, Node,Base) {
   
     var $ = Node.all;
     
@@ -41,7 +41,7 @@ KISSY.add('kg/mobile-tab/2.0.0/index',function (S, Node,Base) {
 		this.currentIndex = 0;
 		this.maxMarginLeft = 0;
 
-		//支持的事列表件lie'b
+		//支持的事列表件列表
 		this.eventName = ["onChange"];
 		this.eventHandle = {};
 		this.options = {
@@ -322,7 +322,7 @@ KISSY.add('kg/mobile-tab/2.0.0/index',function (S, Node,Base) {
 	//alert(navigator.userAgent)
 	//alert(navigator.userAgent.indexOf("Android 2."))
 	if(navigator.userAgent.indexOf("Android 2.") != -1){
-		MulitpeTab.prototype.touchScroll = function( elem ){
+		MobileTab.prototype.touchScroll = function( elem ){
 
 		    var el=elem[0]
 		    var scrollStartPos=0;
