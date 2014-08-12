@@ -316,7 +316,7 @@ KISSY.add(function (S, Node,Base) {
 	//alert(navigator.userAgent)
 	//alert(navigator.userAgent.indexOf("Android 2."))
 	if(navigator.userAgent.indexOf("Android 2.") != -1){
-		MobileTab.prototype.touchScroll = function( elem ){
+		MulitpeTab.prototype.touchScroll = function( elem ){
 
 		    var el=elem[0]
 		    var scrollStartPos=0;
