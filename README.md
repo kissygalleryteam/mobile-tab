@@ -1,13 +1,15 @@
 ## mobile-tab
 
-* 版本：1.0
-* 教程：[http://gallery.kissyui.com/mobile-tab/1.0/guide/index.html](http://gallery.kissyui.com/mobile-tab/1.0/guide/index.html)
-* demo：[http://gallery.kissyui.com/mobile-tab/1.0/demo/index.html](http://gallery.kissyui.com/mobile-tab/1.0/demo/index.html)
+* 版本：2.0.1
+* 教程：<http://gallery.kissyui.com/mobile-tab/2.0.1/guide/index.html>
+* demo：<http://gallery.kissyui.com/mobile-tab/2.0.1/demo/index.html>
 
 ## changelog
 
-### V1.0
+### V2.0.0
 
-    [!]
+   * v2.0.1 修复一个Android 2.3 下的一个代码 bug
+
+
 
 
